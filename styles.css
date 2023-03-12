@@ -48,9 +48,9 @@ main {
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
-}
 
-}
+
+
 
 /* --------------- 4.1 Header ------------------------- */
 header {
@@ -58,6 +58,8 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+
 }
 
 
@@ -127,11 +129,11 @@ h1 {
 }
 /* --------------- 4.2 Introduction ------------------- */
 
-.outer-container-section1 {
+.outer-container-intro1 {
     display: flex;
     justify-content: center;
 }
-.inner-container-section1 {
+.inner-container-intro1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,12 +157,24 @@ h1 {
     color: black;
 }
 /* ------------------------------- 5. Media Queries -------------------------------- */
+.inner-container-section2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+
+
+
+
+
 .article1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-basis: 300px;
     margin-left: 30px;
+    padding-top: 100px;
 
 }
 .article1-head{
@@ -175,16 +189,46 @@ h1 {
     margin-right: 60px;
 }
 #work-img1{
+
+
+}
+.image-wrapper {
     width: 100%;
     flex-basis: 800px;
     flex-shrink: 1;
-}
-.image-wrapper {
-    max-width: 800px;
-    flex-grow:0;
-    flex-shrink:1;
-    fl
+    flex-grow: 0;
+
 
 }
-.inner-container-section2{
+
+
+.inner-container-section3 {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.article3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.inner-container-section4 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+}
+.article4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis:250px;
+}

@@ -10,9 +10,9 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
+
     font-family: 'Roboto', sans-serif;
-    font-color:0C0C0C/
+
 
 }
 /*////////////////////////
@@ -31,7 +31,14 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
-/* ------------------------------- 2. Typography ----------------------------------- */
+h1, h2, h3 {
+font-family: merriweather;
+}
+
+main {
+
+}
+/* ------------------------------- 2. Typography --------------------------------- */
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
@@ -41,8 +48,143 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
-/* --------------- 4.1 Header ------------------------- */
+}
 
+}
+
+/* --------------- 4.1 Header ------------------------- */
+header {
+    background-color: #4845E4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.navbar > {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+
+
+}
+.navbar-items {
+    display: flex;
+
+
+
+}
+a {
+    color: white;
+
+}
+.outer-container-head {
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+.inner-container-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 500px;
+
+}
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-button {
+    border: black;
+    border-style: inset;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin:20px;
+    margin-bottom: 100px;
+
+}
 /* --------------- 4.2 Introduction ------------------- */
 
+.outer-container-section1 {
+    display: flex;
+    justify-content: center;
+}
+.inner-container-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 600px;
+    padding-top: 50px;
+    color: #5722CD;
+
+}
+.intro-text {
+    margin: 10px;
+
+}
+
+.intro-text-par{
+    padding-top: 80px;
+    align-self: center;
+    margin-bottom: 30px;
+
+}
+#contact2{
+    color: black;
+}
 /* ------------------------------- 5. Media Queries -------------------------------- */
+.article1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 300px;
+    margin-left: 30px;
+
+}
+.article1-head{
+    margin-bottom: 20px;
+
+
+}
+.article1-text {
+    display: flex;
+    flex-direction:column;
+    flex-basis: 200px;
+    margin-right: 60px;
+}
+#work-img1{
+    width: 100%;
+    flex-basis: 800px;
+    flex-shrink: 1;
+}
+.image-wrapper {
+    max-width: 800px;
+    flex-grow:0;
+    flex-shrink:1;
+    fl
+
+}
+.inner-container-section2{
+    display: flex;

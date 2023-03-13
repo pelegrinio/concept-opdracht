@@ -57,8 +57,9 @@ header {
     background-color: #4845E4;
     color: white;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding: 20px;
+    position: relative;
 
 }
 
@@ -66,32 +67,32 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-start;
     flex-direction: row;
+}
+
+
+
+.navbar {
+color: #F3F6F9;
+    display:
+
 
 }
 
-.navbar > {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 
 
 
 
-}
-.navbar-items {
-    display: flex;
 
 
-
-}
 a {
     color: white;
 
 }
 .outer-container-head {
     display: flex;
+
 
     justify-content: center;
     width: 100%;
@@ -119,12 +120,20 @@ h1 {
     border: black;
     border-style: inset;
     border-radius: 50px;
-    width: 140px;
+    width: 160px;
     height: 40px;
     background-color: red;
     color: white;
     margin:20px;
     margin-bottom: 100px;
+    text-transform: uppercase;
+
+}
+
+.squiggle-line {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
 
 }
 /* --------------- 4.2 Introduction ------------------- */
@@ -157,6 +166,10 @@ h1 {
     color: black;
 }
 /* ------------------------------- 5. Media Queries -------------------------------- */
+.section2 {
+    background-color: #F3F6F9;
+}
+
 .inner-container-section2 {
     display: flex;
     justify-content: flex-end;
@@ -188,7 +201,10 @@ h1 {
     flex-basis: 200px;
     margin-right: 60px;
 }
-#work-img1{
+.projects{
+    margin-top: 60px;
+    color: #5722CD;
+    text-transform: uppercase;
 
 
 }
@@ -231,4 +247,61 @@ h1 {
     flex-direction: column;
     justify-content: center;
     flex-basis:250px;
+}
+
+/* ------------------------------- 6. boxes -------------------------------- */
+
+.inner-container-section5 {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding: 20px;
+
+}
+
+.webber {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 350px;
+    flex-shrink:1;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 15px;
+    margin: 20px;
+    color: #7A7A7A ;
+    border-color: #4845E4;
+    width: 100%;
+
+
+}
+.icon {
+    flex-basis: 20px;
+    align-content: flex-start;
+    max-width: 60px;
+    max-height: 60px;
+
+
+}
+h3 {
+    padding: 6px;
+    color: #5722CD ;
+    font-weight: bold;
+    font-size: larger;
+}
+/* ------------------------------- 7. form -------------------------------- */
+
+.section4 {
+    background-color: #4845E4;
+    display: flex;
+    justify-content: center;
+    color: #F3F6F9;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
 }

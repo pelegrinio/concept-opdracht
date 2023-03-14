@@ -32,7 +32,8 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
 h1, h2, h3 {
-font-family: merriweather;
+font-family: 'Merriweather Sans', sans-serif;
+    font-size: xx-large;
 }
 
 main {
@@ -304,4 +305,16 @@ h3 {
     align-items: center;
     padding: 10px;
 
+}
+.name {
+    margin-bottom: 10px;
+    padding-right: 140px;
+    padding: 5px;
+
+}
+.email {
+    margin-bottom: 10px;
+}
+.message {
+    margin-bottom: 10px;
 }
